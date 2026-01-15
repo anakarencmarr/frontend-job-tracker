@@ -15,3 +15,7 @@ jobs:
     steps:
     - name: 'Primer paso'
       run: echo "Primer comando ejecutado"
+    - name: 'Dame la fecha'
+      run: date
+    - name: 'Muestra el contenido del directorio'
+      run: ls -la
