@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout
+      uses: actions/checkout@v6.0.1
     - name: 'Primer paso'
       run: echo "Primer comando ejecutado"
     - name: 'Dame la fecha'
